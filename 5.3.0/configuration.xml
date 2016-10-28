@@ -1,0 +1,15 @@
+<slave_config>
+  <slaveserver>
+    <name>Master</name>
+    <hostname>0.0.0.0</hostname>
+    <port>8080</port>
+    <username>cluster</username>
+    <password>cluster</password>
+    <master>Y</master>
+  </slaveserver>
+  <repository>
+    <name>data-integration</name>
+    <username>admin</username>
+    <password>admin</password>
+  </repository>
+</slave_config>

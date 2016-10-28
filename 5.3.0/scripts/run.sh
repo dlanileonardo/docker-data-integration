@@ -1,0 +1,1 @@
+$PENTAHO_HOME/data-integration/carte.sh $PENTAHO_HOME/data-integration/configuration.xml 
