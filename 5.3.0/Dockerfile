@@ -2,6 +2,11 @@ FROM java:7
 
 MAINTAINER Dlani Mendes dlanileonardo@gmail.com
 
+LABEL org.label-schema.vcs-url="https://github.com/dlanileonardo/docker-data-integration" \
+      org.label-schema.vendor=dlanileonardo \
+      org.label-schema.name=data-integration \
+      io.wikiwi.license=MIT
+
 # Init ENV
 ENV DATA_INTEGRATION_VERSION 5.3
 ENV DATA_INTEGRATION_TAG 5.3.0.0-213
